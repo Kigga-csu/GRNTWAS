@@ -1,0 +1,35 @@
+.DS_Store
+.venv/
+.conda_env/
+.conda_pkgs/
+__pycache__/
+*.pyc
+
+# user-requested exclusions
+code/GRN_COP_GSL.py
+code/mutil_process.py
+code/DPR
+code/Association_GWAS/.RData
+code/Association_GWAS/.Rhistory
+code/Association_GWAS/GC_BH/
+code/Association_GWAS/analysis_results/
+code/Association_GWAS/result_eqtl_100k_TF_filter/
+code/Association_GWAS/AD_*/
+code/Association_GWAS/AN/
+code/Association_GWAS/PTSD/
+code/Association_GWAS/SCZ/
+code/Association_GWAS/hhhh/
+code/Association_GWAS/test/
+code/Association_GWAS/comparison_results_AD/
+code/Association_GWAS/**/fusion_results_sorted_fdr.tsv
+code/Association_GWAS/**/significance_counts.txt
+code/Association_GWAS/**/spred_results_sorted_fdr*.tsv
+code/Association_GWAS/**/adjusted_results*.tsv
+code/Association_GWAS/**/qq_plot*.png
+code/Association_GWAS/**/volcano_plot*.png
+code/Association_GWAS/**/GRNTWAS_results_*.tsv
+
+# private/raw data and outputs
+data/
+result/
+result_eqtl_100k_TF_GRN_brainscope/
