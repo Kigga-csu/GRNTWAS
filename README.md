@@ -38,7 +38,7 @@ tabix --version
 bgzip --version
 ```
 
-## Example Data Commands
+## Run the Example Workflow
 
 Train example prediction models:
 
