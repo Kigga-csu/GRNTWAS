@@ -11,7 +11,7 @@ The default training model is DPR. On systems where DPR cannot run, such as the 
 
 Generated outputs are written under `result/`, which is ignored by git.
 
-## Installation
+## Environment Setup
 
 Create and activate a Python environment:
 
